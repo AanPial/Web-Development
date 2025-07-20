@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+</head>
+<body>
+    <form action="">
+        <h1>Payment Form</h1>
+        <h2>Contact Information</h2>
+        <p>Name : <input type="text" name="name" required></p>
+        <fieldset>
+            <legend>Gender</legend>
+        <p>
+            
+            Male <input type="radio" name="Gender" id="1" required>
+            Female <input type="radio" name="Gender" id="2" required>
+        </p>
+        </fieldset>
+        <p>Address : <textarea name="Address" id="Address" cols="100" rows="5"></textarea></p>
+        <p>Email : <input type="email" name="Email" id="Email" required></p>
+        <p>Pincode : <input type="number" name="PIN" id="PIN" required></p>
+        <hr>
+        <h2>Payment Information</h2>
+        <p>Card Type : <select name="Card" id="Card" required>
+            <option value="">--Select a Card type--</option>
+            <option value="Visa">Visa</option>
+            <option value="MasterCard">MasterCard</option>
+            <option value="Nagad">Nagad</option>
+            <option value="BKash">BKash</option>
+        </select></p>
+        <p>
+            Card number : <input type="number" name="cardnum" id="cardnum" required>
+        </p>
+        <p>
+            Expiry Date : <input type="date" name="date" id="date" required>
+        </p>
+        <p>
+            CVV : <input type="number" name="cvv" id="cvv" required>
+        </p>
+        <input type="button" value="Pay Now" style="color: brown;">
+    </form>
+</body>
