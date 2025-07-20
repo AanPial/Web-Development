@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AAN PIAL</title>
+    <style>
+        ul {
+            list-style-type: none;        
+            margin: 0;                    
+            padding: 0;                   
+            overflow: hidden;             
+            background-color: #333333;   
+        }
+
+        ul li {
+            float: left;     
+        }
+
+        ul li a {
+            display: block;     
+            color: white;                
+            text-align: center;
+            padding: 16px;     
+            text-decoration: none;        
+        }
+
+        ul li a:hover {
+            background-color: #111111;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        section, aside {
+            flex: 1;
+        }
+
+        article {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>AAN Pial</h1>
+        <h3>Hello I'm a Web Developer</h3>
+    </header>
+    <hr>
+    <main>
+        <section id="Home">
+            <h2>Home</h2>
+            <p>Welcome to my portfolio website!</p>
+            <img src="E:\Programming\WebDev\HTML\Project 1\photo_2023-04-20_00-54-02.jpg" alt="My Photo" width="200" height="200">
+        </section>
+
+        <aside id="about">
+            <h2>About Me</h2>
+            <p>I am a web developer with experience in building websites and web-applications. I specialize in frontend development with a focus on responsive design and accessibility.</p>
+            <h3>Skills</h3>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ol>
+        </aside>
+    </main>
+    <hr>
+    <article id="project">
+        <h1>Projects</h1>
+        <ol>
+            <li>Project 1</li>
+            <li>Project 2</li>
+            <li>Project 3</li>
+        </ol>
+    </article>
+    <hr>
+    <form action="#" method="get">
+        <h1>Contact Me</h1>
+        <p>Name : <input type="text" name="name" required></p>
+        <p>Email : <input type="email" name="mail" id="mail" required></p>
+        <p>Massage : <textarea name="Massage" id="Massage" cols="30" rows="10"></textarea></p>
+        <input type="submit" value="Send">
+      </form>
+<footer>
+    <hr>
+    <p>&copy; 2025 AAN PIAL. All rights reserved.</p>
+    <p>Contact: <a href="mailto:aaaa@example.com">aaaa@example.com</a></p>
+</footer>
+</body>
+</html>
